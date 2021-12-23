@@ -5,7 +5,8 @@
   "author": "Decagon <info@decagon.dev>",
   "private": true,
   "scripts": {
-    "serve":"node lib/index"
+    "serve":"node lib/index",
+    "build": "tsc"
   },
   "dependencies": {
     "@types/node": "^14.14.22",
